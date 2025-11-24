@@ -75,11 +75,11 @@ URLShortner/
 ### Shorten URL
 - **POST** `/shorten`
 - **Body**: `{"url": "https://example.com/long-url"}`
-- **Response**: `{"short_url": "http://localhost:5000/abc123", "short_code": "abc123", "original_url": "https://example.com/long-url"}`
+- **Response**: `{"short_url": "http://localhost:5000/abc123", "short_code": "abc123", "original_url": "https://abc.com/long-url"}`
 
 ### Get Statistics
 - **GET** `/api/stats`
-- **Response**: `{"total_urls": 5, "urls": [["abc123", "https://example.com"]]}`
+- **Response**: `{"total_urls": 5, "urls": [["abc123", "https://abc.com"]]}`
 
 ### Redirect to Original URL
 - **GET** `/{short_code}`
@@ -97,7 +97,7 @@ The application features:
 ## 🧪 Testing the Application
 
 1. **Test URL Shortening**:
-   - Enter a long URL like `https://www.example.com/very/long/url/path`
+   - Enter a long URL like `https://www.abc.com/very/long/url/path`
    - Click "Shorten URL"
    - Copy the shortened URL
 
@@ -187,13 +187,6 @@ Students can extend this project by adding:
 - **Rate Limiting**: Prevent abuse
 - **URL Preview**: Show preview before redirecting
 
-## 📚 Learning Resources
-
-- **Flask Documentation**: https://flask.palletsprojects.com/
-- **HTML/CSS Tutorial**: https://www.w3schools.com/
-- **JavaScript Guide**: https://developer.mozilla.org/en-US/docs/Web/JavaScript
-- **HTTP Methods**: https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
-
 ## 🤝 Contributing
 
 This is an educational project. Students are encouraged to:
@@ -202,18 +195,6 @@ This is an educational project. Students are encouraged to:
 - Improve the design
 - Fix any bugs they find
 - Share their modifications with classmates
-
-## 📄 License
-
-This project is open source and available for educational use.
-
-## 📞 Support
-
-For questions or issues:
-- Check the code comments
-- Review the error messages
-- Ask your instructor or classmates
-- Check online documentation
 
 ---
 
