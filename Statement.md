@@ -1,7 +1,3 @@
-Here’s a more natural, human-written version of your content. I kept all meaning intact but rewrote it in a smoother, more conversational style:
-
----
-
 ### **URL Shortener – Project Description**
 
 **Project Overview**
@@ -284,12 +280,3 @@ Remember to:
 
 **Good luck—enjoy building your URL Shortener!**
 
----
-
-If you want, I can also:
-✅ Make the tone even more casual
-✅ Format it as a PDF
-✅ Shorten or expand sections
-✅ Convert it into a README.md
-
-Just let me know!
